@@ -1,0 +1,184 @@
+/*large device start*/
+@media (max-width: 1199px)
+{
+	 .text-part h1
+	   {
+	    font-size: 30px;
+	   }
+	  p 
+	   {
+	     font-size: 13px;
+	   }
+	   .picture-mobile img 
+	   {
+	 
+	    height: 400px;
+	    }
+}
+/*large device End*/
+
+/*medium device start*/
+@media (max-width: 991px)
+{
+
+	.text-part h1 {
+	    font-size: 25px;
+	    margin-bottom: 0;
+
+	}
+
+	 p {
+	    font-size: 12px;
+	    margin-bottom: 25px;
+	}
+	.text-part a {
+
+	    padding: 10px 15px;
+	    margin-bottom: 10px;
+	    font-size: 9px;
+	}
+	.navbar-nav {
+	  
+	    flex-direction: row;
+	}
+	dl, ol, ul {
+	    
+	    justify-content: center;
+	}
+	.picture-mobile img {
+	    height: 340px;
+	}
+	.pt-5, .py-5
+	 {
+    padding-top: 0rem!important;
+    }
+    .pt-4, .py-4 {
+    padding-top: 2.5rem!important;
+	}
+	.image-text-mobile {
+	    padding: 25px 0;
+	}
+	.price-section-padding {
+	    padding-top: 25px;
+	}
+
+	.inside-table-element ul {
+	   
+	    margin-bottom: 25px;
+	}
+	
+}
+/*medium device end*/
+@media (max-width: 779px)
+{
+
+
+	.picture-mobile img
+	 {
+    height: 320px;
+}
+}
+
+
+
+
+
+/*small device start*/
+@media (max-width: 767px)
+{
+
+	.text-part 
+	{
+	    text-align: center;
+	}
+	.picture-mobile 
+	{
+	    text-align: center;
+	}
+	.picture-mobile img 
+	{
+	    height: 230px;
+	}
+	.w-100 
+	{
+    width: 35%!important;
+	}
+	.image-mobile {
+	    text-align: center;
+	}
+	.image-text-mobile {
+	    text-align: center;
+	}
+	.ulli-part {
+	    transform: translateX(37%);
+	}
+	.question-part strong {
+	    font-size: 25px;
+	   
+	}.question-part span {
+	    font-size: 22px;
+	   
+	}
+	.question-part h1 {
+	    text-align: center;
+	}
+	.button-part {
+	    text-align: center;
+	    margin-top: 20px;
+	}
+	.justify-content-between {
+	    justify-content: center!important;
+	}
+	.message-part .form-group button {
+    margin-left: 76px;
+    padding: 10px 18px;
+    font-size: 9px;
+    font-weight: 600;
+   }
+   .alignment {
+    padding: 20px 0px 0px 0px;
+   }
+	
+	dl, ol, ul {
+    margin-top: 5px;
+   }
+  .aligning-image h4
+   {
+    font-size: 14px;
+   }
+   .customize {
+    text-align: center;
+}
+ }
+/*medium device end*/
+
+/*Extra small device start*/
+@media (max-width: 575px)
+{
+	.text-part h1 
+	{
+	 font-size: 22px;
+
+	}
+
+	p {
+	    font-size: 12px;
+	        padding: 0 20px;
+	}
+
+	.image-part {
+	   
+	    margin-bottom: 15px;
+	}
+	.icon-text p {
+	    padding: 0px 120px;
+	}
+	.customize {
+	    text-align: center;
+	}
+	.list-unstyled {
+    margin: 10px 50px !important;
+}
+
+}
+/*medium device end*/
